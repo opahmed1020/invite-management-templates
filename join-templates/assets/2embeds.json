@@ -29,6 +29,24 @@
 			"footer": {
 				"text": "We now have ${guild_membercount} members!",
 				"icon_url": "https://cdn.discordapp.com/avatars/server"
+				  // buttons
+  const row = new MessageActionRow().addComponents(
+    new MessageButton()
+      .setStyle("LINK")
+      .setURL("https://t.me/AZGAMEES") // link to button 1
+      .setLabel("TELEGRAM") // name of button 1
+      .setEmoji("<:icons8_telegram_app_480px:994652797595299873> "), // emoji of button 1
+    new MessageButton()
+      .setStyle("LINK")
+      .setURL("https://www.facebook.com/groups/920866282780558/ ") // link to button 2
+      .setLabel("FACEBOOK") // name of button 2
+      .setEmoji("<:icons8_Facebook_480px:994652741861392524> "), // emoji of button 2
+    new MessageButton()
+      .setStyle("LINK")
+      .setURL("https://www.tiktok.com/@alza3eem3?is_from_webapp=1&sender_device=pc ") // link to button 3
+      .setLabel("TIKTOK") // name of button 3
+      .setEmoji(":regional_indicator_t: "), // emoji of button 3
+  );
 			}
 		}
 	]
